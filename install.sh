@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Author: Andreas Prang <mail@andreasprang.de>
+# Author: Andreas Prang <Andreas.Prang@AxelSpringer.de>
 
 # Install requirements
 sudo apt-get -y install git
