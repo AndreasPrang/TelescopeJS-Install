@@ -13,7 +13,7 @@ curl https://install.meteor.com/ | sh
 # Install service
 wget https://raw.githubusercontent.com/AndreasPrang/TelescopeJS-Install/master/Telescope
 sudo mv Telescope /etc/init.d/Telescope
-chown root:root Telescope
+chown root:root /etc/init.d/Telescope
 sudo chmod +x /etc/init.d/Telescope
 sudo update-rc.d Telescope defaults 97 03
 
