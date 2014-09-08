@@ -11,7 +11,9 @@ sudo mv Telesco* /opt/Telescope
 curl https://install.meteor.com/ | sh
 
 # Install service
-sudo curl https://raw.githubusercontent.com/AndreasPrang/TelescopeJS-Install/master/Telescope > /etc/init.d/Telescope 
+wget https://raw.githubusercontent.com/AndreasPrang/TelescopeJS-Install/master/Telescope
+sudo mv Telescope /etc/init.d/Telescope
+chown root:root Telescope
 sudo chmod +x /etc/init.d/Telescope
 sudo update-rc.d Telescope defaults 97 03
 
